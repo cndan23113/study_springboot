@@ -12,7 +12,7 @@ public class HelloController {
     public String hello(){
         return "hello";
     }
-// merge test 2
+// 작업 test
     @GetMapping("/hello/dto")
     public HelloResponseDto helloDto(@RequestParam("name") String name, @RequestParam("amount") int amount) {
         return new HelloResponseDto(name, amount);
