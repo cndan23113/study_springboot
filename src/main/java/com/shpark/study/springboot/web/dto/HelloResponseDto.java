@@ -6,7 +6,7 @@ import lombok.RequiredArgsConstructor;
 @Getter
 @RequiredArgsConstructor
 public class HelloResponseDto {
-//test 주석 2
+//merge test1
     private final String name;
     private final int amount;
 }
