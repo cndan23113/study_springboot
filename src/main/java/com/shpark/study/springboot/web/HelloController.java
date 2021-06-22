@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-
+//master 브랜치 입니다.
     @GetMapping("/hello")
     public String hello(){
         return "hello";
